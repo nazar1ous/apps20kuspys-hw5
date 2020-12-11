@@ -29,6 +29,9 @@ public class FlatMapIterator implements AbstractIterator {
 
     @Override
     public int next() {
-        return subIter.next();
+        if (hasNext()) {
+            return subIter.next();
+        }
+        throw new IllegalArgumentException("Iterator default exception");
     }
 }
