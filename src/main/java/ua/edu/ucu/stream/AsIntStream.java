@@ -3,9 +3,7 @@ package ua.edu.ucu.stream;
 import ua.edu.ucu.function.*;
 import ua.edu.ucu.iterators.*;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 
 public class AsIntStream implements IntStream {
     private final AbstractIterator iterator;

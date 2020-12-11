@@ -12,6 +12,7 @@ public class FlatMapIterator implements AbstractIterator {
                            IntToIntStreamFunction function) {
         this.iterator = iterator;
         this.func = function;
+        subIter = new BaseIterator(new int[0]);
     }
 
     @Override

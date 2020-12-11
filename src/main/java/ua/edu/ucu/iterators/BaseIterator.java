@@ -1,6 +1,5 @@
 package ua.edu.ucu.iterators;
 
-import java.util.Arrays;
 
 public class BaseIterator implements AbstractIterator {
     private final int[] arr;
